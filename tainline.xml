@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system" method="upgrade">
+	<name>System - taInline</name>
+    <author>Alexandr Tumaykin</author>
+    <creationDate>08.02.2011</creationDate>
+    <authorEmail>alexandrtumaykin@gmail.com</authorEmail>
+    <version>1.0.0</version>
+	<description>&lt;jdoc:include type="inline" /&gt;</description>
+	<files>
+		<filename plugin="tainline">tainline.php</filename>
+		<folder>tainline</folder>
+	</files>
+    <params addpath="/plugins/system/tainline/elements">
+	</params>
+</install>
